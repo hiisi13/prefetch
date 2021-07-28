@@ -3,3 +3,12 @@ CLI tool that measures latency of cloud streaming speech-to-text APIs. It simula
 
 ## Supported treaming speech-to-text API vendors
 There are plans to eventually support latency measurements for all major STT vendors including Google Cloud, AWS, Azure.
+
+## Usage
+Set location of your project credentials file to `GOOGLE_APPLICATION_CREDENTIALS` enrivonment variable. Then run `python cli.py`. Available options are:
+
+```shell
+  -i, --input TEXT          Audio WAV file
+  -p, --pattern TEXT        Pattern to match the transcript against, string or a file path
+  -l, --language_code TEXT  Language code, defaults to 'en-US'
+```
