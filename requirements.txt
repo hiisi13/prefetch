@@ -2,5 +2,5 @@ click==8.0.1
 google-cloud-speech==2.5.1
 grpcio==1.39.0
 grpcio-tools==1.39.0
-PyYAML==5.3
 SoundFile==0.10.3.post1
+numpy==1.21.1
